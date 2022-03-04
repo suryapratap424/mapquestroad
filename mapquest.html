@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mapquest.css">
+    <!-- main mapquest links -->
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
+    <!-- place-search links -->
+    <script src="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/place-search-js/v1.0.0/place-search.css" />
+    <!-- map quest gl -->
+    <script src="https://api.mqcdn.com/sdk/mapquest-gl-js/v0.4.0/mapquest-gl.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-gl-js/v0.4.0/mapquest-gl.css" />
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="formBlock">
+        <form id="form">
+            <input type="search" class="input" id="start" placeholder="Choose starting point" autocomplete="off" />
+            <input type="search" class="input" id="destination" placeholder="Choose destination point"
+                autocomplete="off" />
+            <button type="submit">Get Directions</button>
+        </form>
+    </div>
+</body>
+<script src="./indiastations.js"></script>
+<!-- <script src="./utility.js"></script> -->
+<script src="./mapapp.js"></script>
+
+</html>
